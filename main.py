@@ -10,7 +10,7 @@ import cevir
 sehir=input("Şehri Giriniz:")
 sehirD=sehir.replace("i","İ").capitalize()
 api_request=requests.get("http://api.openweathermap.org/data/"
-                         "2.5/weather?q="+sehir+"&appid=24bb5a00705b2420901490c95519ab0b")
+                         "2.5/weather?q="+sehir+"&appid=******************************")
 
 result= json.loads(api_request.content)
 
